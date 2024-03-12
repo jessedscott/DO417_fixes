@@ -76,8 +76,7 @@
       win_chocolatey:
         name: Wireshark
         state: present
-        pinned: true
-     
+        pinned: true     
 
     - name: Server is rebooted
       win_reboot:
